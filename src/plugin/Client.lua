@@ -1055,9 +1055,9 @@ LrTasks.startAsyncTask(
         startServer(context)
 
         if WIN_ENV then
-          LrShell.openFilesInApp({LrPathUtils.child(_PLUGIN.path, 'Info.lua')}, LrPathUtils.child(_PLUGIN.path, 'MIDI2LR.exe'))
+          LrShell.openFilesInApp({LrPathUtils.child(_PLUGIN.path, 'Info.lua')})
         else
-          LrShell.openFilesInApp({LrPathUtils.child(_PLUGIN.path, 'Info.lua')}, LrPathUtils.child(_PLUGIN.path, 'MIDI2LR.app'))
+          LrShell.openFilesInApp({LrPathUtils.child(_PLUGIN.path, 'Info.lua')})
         end
 
         -- add an observer for develop param changes--needs to occur in develop module

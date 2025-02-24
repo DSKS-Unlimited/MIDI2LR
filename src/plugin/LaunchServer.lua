@@ -27,9 +27,9 @@ LrTasks.startAsyncTask(
     import 'LrMobdebug'.on()
     --]]-----------end debug section
     if WIN_ENV then
-      LrShell.openFilesInApp({LrPathUtils.child(_PLUGIN.path, 'Info.lua')}, LrPathUtils.child(_PLUGIN.path, 'MIDI2LR.exe'))
+      LrShell.openFilesInApp({LrPathUtils.child(_PLUGIN.path, 'Info.lua')})
     else
-      LrShell.openFilesInApp({LrPathUtils.child(_PLUGIN.path, 'Info.lua')}, LrPathUtils.child(_PLUGIN.path, 'MIDI2LR.app'))
+      LrShell.openFilesInApp({LrPathUtils.child(_PLUGIN.path, 'Info.lua')})
     end
   end
 )
