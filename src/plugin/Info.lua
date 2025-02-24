@@ -21,12 +21,12 @@ return {
   LrAlsoUseBuiltInTranslations = true,
   LrForceInitPlugin = true,
   LrInitPlugin = 'Client.lua', -- Main client logic
-  LrPluginInfoUrl = 'https://github.com/rsjaffe/MIDI2LR/wiki',
-  LrPluginName = 'MIDI2LR',
+  LrPluginInfoUrl = 'https://github.com/DSKS-Unlimited/MIDI2LR/tree/rawhid2lr',
+  LrPluginName = 'RAWHID2LR',
   LrSdkMinimumVersion = 11.0, -- minimum SDK version required by this plug-in
   LrSdkVersion = 11.0,
   LrShutdownPlugin = 'ShutDownPlugin.lua',
-  LrToolkitIdentifier = 'com.rsjaffe.midi2lr',
+  LrToolkitIdentifier = 'com.dsks.rawhid2lr',
   LrExportMenuItems = {
     {
       title = LOC("$$$/MIDI2LR/Menu/GeneralOptions=General &options"),
